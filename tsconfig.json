@@ -20,6 +20,7 @@
         "coverage/*"
     ],
     "angularCompilerOptions": {
-        "skipTemplateCodegen": true
+        "skipTemplateCodegen": true,
+        "disableTypeScriptVersionCheck": true
     }
 }
