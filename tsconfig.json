@@ -12,7 +12,12 @@
         "inlineSourceMap": true,
         "inlineSources": true,
         "declaration": true,
-        "moduleResolution": "node"
+        "sourceMap": true,
+        "moduleResolution": "node",
+        "skipLibCheck": true,
+        "types": [
+            "node"
+        ],
     },
     "exclude": [
         "docs/*",
@@ -20,7 +25,11 @@
         "coverage/*"
     ],
     "angularCompilerOptions": {
+        "genDir": "aot",
+        "debug": true,
         "skipTemplateCodegen": true,
+        "strictMetadataEmit": true,
+        "enableIvy": false,
         "disableTypeScriptVersionCheck": true
     }
 }
