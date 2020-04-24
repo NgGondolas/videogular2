@@ -20,6 +20,8 @@
     "@types/bluebird": "^3.5.25",
     "@types/core-js": "0.9.46",
     "@types/jasmine": "^3.3.1",
+    "@types/jest": "25.2.1",
+    "@types/mocha": "7.0.2",
     "@types/node": "10.12.12",
     "codelyzer": "5.1.0",
     "commitizen": "2.9.6",
@@ -42,12 +44,12 @@
     "rxjs": "6.5.5",
     "semantic-release": "6.3.2",
     "systemjs": "^0.20.19",
+    "tslib": "^1.10.0",
     "tslint": "5.17.0",
     "typescript": "~3.8.3",
     "validate-commit-msg": "2.12.1",
     "watch": "1.0.2",
-    "zone.js": "0.10.3",
-    "tslib": "^1.10.0"
+    "zone.js": "0.10.3"
   },
   "scripts": {
     "prebuild": "npm run clean",
@@ -68,9 +70,7 @@
     "lint": "tslint -p tsconfig.json -c tslint.json --fix"
   },
   "husky": {
-    "hooks": {
-
-    }
+    "hooks": {}
   },
   "engines": {
     "node": ">=10.9.0 <11.0.0"
